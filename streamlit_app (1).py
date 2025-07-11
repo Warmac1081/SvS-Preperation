@@ -45,7 +45,7 @@ with st.form("registration_form"):
     # Alliance Selection
     alliance = st.selectbox(
         "What is Your Alliance?*",
-        ["TCW", "MRA", "FOX", "SHR" ,"mra", "CCB" , "RFA" , "GoR" , "DIU"],
+        ["WSU", "HEL", "KAT", "NPX", "PWW" ,"M2M", "SIC" , "GOT" , "Other"],
         index=0
     )
     
@@ -53,7 +53,7 @@ with st.form("registration_form"):
     # FC Level
     fc_level = st.selectbox(
         "What is Your Current FC level?*",
-        ["F28","F29","F30", "FC1", "FC2", "FC3", "FC4", "FC5"],
+        ["F27","F28","F29","F30", "FC1", "FC2", "FC3"],
         index=0
     )
     
